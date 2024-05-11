@@ -28,7 +28,7 @@ app.use('/api/drive', driveRoutes);
 app.use('/api/downloads', downloadRoutes);
 app.use('/api/notifications', notificationRoutes);
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
